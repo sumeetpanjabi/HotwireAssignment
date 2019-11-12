@@ -5,7 +5,7 @@
         <classes>
             <class name="flights.SearchFlightTest"/>
             <class name="base.BaseTest"></class>
-            <parameter name="browserName" value="firefox"/>
+            <parameter name="browserName" value="chrome"/>
         </classes>
     </test>
 </suite>
