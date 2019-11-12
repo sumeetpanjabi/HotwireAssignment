@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="HotwireAssignmentSuite" verbose="1" >
+    <test name="SearchResultsTest" >
+        <classes>
+            <class name="flights.SearchFlightTest"/>
+            <class name="base.BaseTest"></class>
+            <parameter name="browserName" value="chrome"/>
+        </classes>
+    </test>
+</suite>
