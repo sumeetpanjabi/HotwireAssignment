@@ -12,6 +12,6 @@ public class SearchFlightTest extends BaseTest {
         VacationsPage vacationsPage = homepage.clickVacations();
         vacationsPage.selectCar();
         int searchResults = vacationsPage.searchFlight("SFO", "LAX");
-        Assert.assertTrue(searchResults>0);
+        Assert.assertTrue(searchResults > 0);
     }
 }

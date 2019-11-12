@@ -7,7 +7,7 @@ public class HomePage {
 
     private WebDriver driver;
 
-   private String vacationsLocator = "//li[@class='hidden-xs']//a[contains(text(),'Vacations')]";
+    private String vacationsLocator = "//li[@class='hidden-xs']//a[contains(text(),'Vacations')]";
 
     public HomePage(WebDriver driver) {
         this.driver = driver;
